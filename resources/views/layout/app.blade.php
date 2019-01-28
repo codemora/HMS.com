@@ -3,6 +3,7 @@
 	<head>
         <meta http-equiv="content-type" content="text/html" charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/img/HMS_logo.ico">
         <link rel="stylesheet" href={{ asset("css/custom.css")}}>
         <link rel="stylesheet" href={{ asset("css/flickity.min.css")}}>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -52,7 +53,7 @@
           			opacity: .6,
 					startingTop: '80%',
 					inDuration: 300,
-					outDuration: 300,
+					outDuration: 300
 				});
 			});
 		</script>
@@ -86,13 +87,13 @@
 				});
 			});
 		</script>
-		<script type="text/javascript">
+		{{-- <script type="text/javascript">
 			$(document).ready(function(){
 				$('#menuclose').click({
 					$('.button-collapse').sideNav('destroy');
 				});
 			});
-		</script>
+		</script> --}}
 		<script type="text/javascript">
 			$(document).ready(function(){
 	      		$('.carousel').carousel();

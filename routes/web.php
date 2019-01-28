@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::get('/','PagesController@index');
+
+Route::resource('hostels','HostelController');
+
+Route::get('application/create','ApplicationController@create');
+Route::post('application/create','ApplicationController@show');
